@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#efeae3d1;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    position:fixed;
+   background-color :#d4c0a3ba;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   top: 0;
+
+
+}
+.nav-logo1 i{
+    font-size: 20px;
+  padding-left:;
+  padding-right:450px;
+  color: red;
+}
+.nav-logo1{
+    height: 70px;
+    width: 50px;
+    font-weight: 600;
+    color:black;
+    display: flex;
+ 
+}
+.nav-logo1 h2{
+    height: 90px;
+    width: 50px;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    }
+.option a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #000000bb;
+}
+.option i{
+    margin-left: 40px;
+    font-size: 25px;
+}
+/*hero section*/
+.herosection{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+.hero-left{
+height: 550px;
+width: 40%;
+background-color:;
+padding-top: 150px;
+padding-left: 100px;
+}
+.hero-para{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.hero-h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.hero-btn button{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: sienna;
+    font-size: 25px;
+}
+.hero-h1 span{
+    color: sienna;
+}
+
+
+.hero-right{
+height: 550px;
+width: 60%;
+background-color:;
+display: grid;
+place-items: center;
+}
+.imgslider{
+    width: 80%;
+    height: 400px;
+    background-image: url('myshop.png');
+    background-size: 100% 100%;
+    border-radius: 20px;
+    box-shadow: rgba(149,157,165,0.2);
+    animation: changeImage 15s linear infinite;
+
+}
+
+@keyframes changeImage{
+    0%{
+        background-image: url("img1.jpg");
+    }
+    25%{
+        background-image: url("img2.jpg");
+    }
+    50%{
+        background-image: url("img3.jpg");
+    }
+    75%{
+        background-image: url("img4.jpg");
+    }
+    100%{
+        background-image: url("img5.jpg");
+    }
+}
+
+/*shop*/
+.shop-h1{
+    font-size: 25px;
+    text-align: center;
+}
+.shop-h1 span{
+    color:chocolate;
+    font-size: 60px;
+}
+.shops-boxes{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 70px;
+}
+.shop-box1{
+    height: 400px;
+    width: 300px;
+    background-color:rgba(152, 251, 152, 0.574);
+    border-radius: 15px;
+}
+.shop-box1-h3{
+color: black;
+margin-left: 30px ;
+margin-top: 10px;
+font-size: 20px;
+}
+.shop-box2{
+    height: 400px;
+    width: 300px;
+    background-color: rgba(152, 251, 152, 0.574);
+    border-radius: 15px;
+}
+.shop-box3{
+    height: 400px;
+    width: 300px;
+    background-color:rgba(152, 251, 152, 0.574);
+    border-radius: 15px;
+}
+.shop-box4{
+    height: 400px;
+    width: 300px;
+    background-color:rgba(152, 251, 152, 0.574);
+    border-radius: 15px;
+}
+.shop-box5{
+    height: 400px;
+    width: 300px;
+    background-color:rgba(152, 251, 152, 0.574);
+    border-radius: 15px;
+}
+.shop-box6{
+    height: 400px;
+    width: 300px;
+    background-color:rgba(152, 251, 152, 0.574);
+    border-radius: 15px;
+}
+.imgm1{
+    height: 250px;
+    width: 300px;
+    background-image: url("men1.jpeg");
+    background-size: cover;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    
+}
+.imgm2{
+    height: 250px;
+    width: 300px;
+    background-image: url("men2.jpg");
+    background-size: cover;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    
+}
+.imgm3{
+    height: 250px;
+    width: 300px;
+    background-image: url("men3.jpg");
+    background-size: cover;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    
+}
+.imgw1{
+    height: 250px;
+    width: 300px;
+    background-image: url("women1.jpg");
+    background-size: cover;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    
+}
+.imgw2{
+    height: 250px;
+    width: 300px;
+    background-image: url("women2.webp");
+    background-size: cover;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    
+}
+.imgw3{
+    height: 250px;
+    width: 300px;
+    background-image: url("women4.jpg");
+    background-size: cover;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    
+}
+.star{
+    color: rgb(247, 215, 7);
+    font-size: 25px;
+    margin-top: 20px;
+}
+.shop-btn button{
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: sienna;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.blogs{
+    height: 600px;
+    width: 100%;
+    background-color:;
+
+}
+.blog-lr{
+    height: 550px;
+    width: 100%;
+    background-color:;
+    display: flex;
+   
+}
+.blogs-h1{
+    font-size: 25px;
+    text-align: center;
+}
+    
+.blog-left{
+    height: 550px;
+    width:50%;
+    background-color:;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-left-box{
+    height: 400px;
+    width: 620px;
+    background-color:;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+}
+.blog-right{
+    height: 550px;
+    width:50%;
+    background-color:;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-right-box{
+    height: 400px;
+    width: 620px;
+    background-color:;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+}
+.blog-img-boy{
+    height: 340px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-image: url("men1.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+    background-color:;
+
+}
+.blog-img-girl{
+    height: 340px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-image: url("women2.webp");
+    background-size: cover;
+    border-radius: 20px;
+    background-color:;
+}
+
+   
+.blog-boy-text{
+    height: 340px;
+    width: 250px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 20px;
+  
+}
+   
+.blog-boy-text p{
+   
+    
+    margin-top: 20px;
+    font-size: 20px;
+  
+}
+.blog-boy-text button{
+   
+    height: 40px;
+    width: 200px;
+    margin-top: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: sienna;
+  
+}
+.blog-boy-text button a{
+
+    font-size: 20px;
+    text-decoration:none;
+    color: black;
+}
+.blog-girl-text{
+    height: 340px;
+    width: 250px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 20px;
+  
+}
+.blog-girl-text p{
+ 
+    
+    margin-top: 20px;
+    font-size: 20px;
+  
+}
+.blog-girl-text button{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: sienna;
+    margin-top: 40px;
+    font-size: 20px;
+  
+}
+.blog-girl-text button a{
+
+    font-size: 20px;
+    text-decoration:none;
+    color: black;
+}
